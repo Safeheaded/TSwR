@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "mmac",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "./mmac.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "parse inertia",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "./utils/calculate_inertia.py",
+      "console": "integratedTerminal",
+      "args": ["./urdf/planar2dof.urdf"]
+    },
+    {
+      "name": "flc",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "./flc.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
