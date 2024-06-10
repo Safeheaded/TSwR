@@ -25,6 +25,20 @@
       "request": "launch",
       "program": "./flc.py",
       "console": "integratedTerminal"
+    },
+    {
+      "name": "adrc",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "./adrc.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "adrflc",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "./adrflc.py",
+      "console": "integratedTerminal"
     }
   ]
 }
